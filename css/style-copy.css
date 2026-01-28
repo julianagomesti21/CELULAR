@@ -1,0 +1,22 @@
+ /* padrão de computador*/
+/**{
+    color: white;
+}
+*/
+ @media (max-width: 4000px)  {
+
+    body{
+        background-color: blue;
+    }
+}
+ /* padrão de tablet*/
+@media (max-width: 768px) {
+   
+}
+ /*padrão de celular*/
+@media (max-width: 576px) {
+    
+        body{
+        background-color: pink;
+    }
+}

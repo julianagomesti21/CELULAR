@@ -1,0 +1,373 @@
+ /* padrão de computador*/
+*{
+    color: white;
+}
+ @media (max-width: 4000px)  {
+    .s1 img{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .s1{
+        height: 600px;
+    }
+    .s1 .especial{
+        margin-top: 120;
+    }
+    .nusuario h1{
+        margin-top: 20px;
+    }
+    .susuario{
+        text-align: right;
+        margin-top: 10px;
+    }
+    .aluguel div{
+        border: 1px solid rgb(255, 255, 255);
+        padding: 10px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: 60px;
+        font-size: 0.7em;
+    }
+    .modificaaluguel div{
+        border: 1px solid rgb(255, 255, 255);
+        padding: 10px;
+        font-size: 0.7em;
+    }
+    .cabecalho{
+        margin-top: 30px;
+    }
+
+.psearch{
+    color: black;
+
+}
+.s2 h1{
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+
+}
+.s2 h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.s2 select{
+ font-size: 14px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .editar{
+        background-color: rgba(255, 255, 0, 0.679);
+        position: fixed;
+        z-index: 2;
+        top: 70px;
+        left: 35%;
+        width: 400px;
+        height: 500px;
+        display: none;
+    }
+    .editar input, select, textarea,option{
+        color: black;
+        width: 80%;
+        font-size: 1.3em;
+    }
+    .editar input[type="submit"]{
+        margin-top: 10px;
+        background-color: rgb(244, 251, 17);
+        border: none;
+        height: 30px;
+        color: black;
+        cursor: pointer;
+    }
+    .editar button{
+        background-color: red;
+        border: none;
+        width: 80%;
+        height: 30px;
+        margin-top: 20px;
+        font-size: 1.3em;
+        cursor: pointer;
+        
+    }
+    .editar h6{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 1.3em;
+    }
+    body:has(#editar:target) .editar{
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .deletar{
+        background-color: rgba(221, 13, 6, 0.726);
+        position: fixed;
+        z-index: 2;
+        top: 70px;
+        left: 35%;
+        width: 400px;
+        height: 500px;
+        display: none;
+    }
+    .deletar input, select, textarea, option{
+        
+        width: 80%;
+        font-size: 1.3em;
+        color: black;
+    }
+    .deletar input[type="submit"]{
+        margin-top: 10px;
+        background-color: rgb(251, 76, 1);
+        border: none;
+        height: 30px;
+        color: black;
+        cursor: pointer;
+    }
+    .deletar button{
+        background-color: rgb(255, 77, 0);
+        border: none;
+        width: 80%;
+        height: 30px;
+        margin-top: 20px;
+        font-size: 1.3em;
+        cursor: pointer;
+        
+    }
+    .deletar h6{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 1.3em;
+    }
+    
+    body:has(#deletar:target) .deletar{
+        display: block;
+    }
+
+
+
+
+
+    .cadastrar{
+        background-color: rgba(46, 181, 1, 0.873);
+        position: fixed;
+        z-index: 2;
+        top: 70px;
+        left: 35%;
+        width: 400px;
+        height: 500px;
+        display: none;
+    }
+    .cadastrar input, select, textarea, option{
+        
+        width: 80%;
+        font-size: 1.3em;
+        color: black;
+    }
+    .cadastrar input[type="submit"]{
+        margin-top: 10px;
+        background-color: rgb(88, 251, 1);
+        border: none;
+        height: 30px;
+        color: black;
+        cursor: pointer;
+    }
+    .cadastrar button{
+        background-color: rgb(191, 255, 0);
+        border: none;
+        width: 80%;
+        height: 30px;
+        margin-top: 20px;
+        font-size: 1.3em;
+        cursor: pointer;
+        
+    }
+    .cadastrar h6{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 1.3em;
+    }
+    
+    body:has(#cadastrar:target) .cadastrar{
+        display: block;
+    }
+
+
+
+
+
+
+    
+    .imagem{
+        background-color: rgba(46, 181, 1, 0.873);
+        position: fixed;
+        z-index: 2;
+        top: 70px;
+        left: 35%;
+        width: 400px;
+        height: 270px;
+        display: none;
+    }
+    .imagem input{
+        
+        width: 80%;
+        font-size: 1.3em;
+        color: black;
+        margin: 5px;
+    }
+    .imagem input[type="submit"]{
+        margin-top: 10px;
+        background-color: rgb(88, 251, 1);
+        border: none;
+        height: 30px;
+        color: black;
+        cursor: pointer;
+    }
+    .imagem h1{
+        padding: 10px;
+        font-size: 2em;
+    }
+    .imagem button{
+        background-color: rgb(191, 255, 0);
+        border: none;
+        width: 80%;
+        height: 30px;
+        margin-top: 20px;
+        font-size: 1.3em;
+        cursor: pointer; 
+    }  
+    body:has(#imagem:target) .imagem{
+        display: block;
+    }
+
+    .usu{
+        background-color: rgba(50, 31, 58, 0.873);
+        position: fixed;
+        z-index: 2;
+        top: 70px;
+        left: 35%;
+        width: 400px;
+        height: 500px;
+        display: none;
+    }
+    .usu input{
+        
+        width: 80%;
+        font-size: 1.3em;
+        color: black;
+        margin: 5px;
+    }
+    .usu input[type="submit"]{
+        margin-top: 10px;
+        background-color: rgb(251, 226, 1);
+        border: none;
+        height: 30px;
+        color: black;
+        cursor: pointer;
+    }
+    .usu h1{
+        padding: 10px;
+        font-size: 2em;
+    }
+    .usu button{
+        background-color: rgb(255, 17, 0);
+        border: none;
+        width: 80%;
+        height: 30px;
+        margin-top: 20px;
+        font-size: 1.3em;
+        cursor: pointer; 
+    }  
+    body:has(#fusuario:target) .usu{
+        display: block;
+    }
+
+
+
+
+    a{
+        margin: 0;
+        padding: 0;
+    }
+    
+
+}
+ /* padrão de tablet*/
+@media (max-width: 768px) {
+   
+}
+ /*padrão de celular*/
+@media (max-width: 576px) {
+    
+}
+
+.s2 input[type = "submit"]
+{
+background-color: black;
+color: white;
+padding: 10px 30px;
+border: none;
+font-size: 1.2em;
+margin-top: 20px;
+box-shadow: 5px 5px 3px green ;
+cursor: pointer;
+
+}
+.titulo{
+padding-top: 20px;
+font-size: 2em;
+font-weight: bold;
+}
+
+.fotocasa img{
+    height: 200px;
+
+}
+
+.fotocasa div {
+    margin-top: 5px;
+margin-bottom: 5px;
+}
+
+body{
+    background-color:  #262626;
+}
+
+.fotocasa .icone1{
+    width: 10%;
+    height: 30px;
+
+}
+
+.fotocasa .icone2{
+    width: 10%;
+    height: 30px;
+    margin-left: 2%;
+}
