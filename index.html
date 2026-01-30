@@ -1,16 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
         <meta charset="UTF-8">
-        <meta name = "viewport" content="width=device-width,initial-scale=1.0">
-      <link rel="stylesheet" href="css/reset.css">
-      <link rel="stylesheet" href="css/padrao.css">
-      <link rel="stylesheet" href="css/style-copy.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/padrao.css">
+        <link rel="stylesheet" href="css/style-copy.css">
 </head>
+
 <body>
-        <div class="teste"></div>
-        <h1>aaaaaaaaaaaa aaaa aaaaa aaaaaa aaaaaaaaa aaaaaaa aaaa a aaaaaaaa a</h1>
-        
+        <HEader class="fxw">
+                <div class="col-3">
+                        <img class="col-5" src="img/hotdog.jpg" alt="">
+
+                </div>
+
+                <div class="col-9">
+                        <img class="col-5" src="img/wtz.jpg" alt="">
+                        <img class="col-5" src="img/compras.png" alt="">
+
+                </div>
+
+
+
+
+        </HEader>
+
+        <section class="s1 fxw">
+                <h1 class="centraliza col-12 ">Nossos Destaques</h1>
+
+                <div class="col-2 centralizar">
+                        <img class="col-10" src="img/01images.jpg" alt="">
+                </div>
+
+                <div class="col-2 centralizar">
+                        <img class="col-10" src="img/02.jpg" alt="">
+                </div>
+
+                <div class="col-2 centralizar">
+                        <img class="col-10" src="img/03images.jpg" alt="">
+                </div>
+
+                <div class="col-2 centralizar">
+                        <img class="col-10" src="img/04images.jpg" alt="">
+                </div>
+
+                <div class="col-2 centralizar">
+                        <img class="col-10" src="img/05images.jpg" alt="">
+                </div>
+
+                <div class="col-2 centralizar">
+                        <img class="col-10" src="img/06images.jpg" alt="">
+                </div>
+
+
+        </section>
+
+        <section class="s2">
+                <div class="slider">
+                        <div class="slider_principal">
+                                <input type="radio" name="bola" id="bola1">
+                                <input type="radio" name="bola" id="bola2">
+                                <div class="col-12 slidee primeiro ">
+                                        <img class="col-12" src="img/01baner.png" alt="">
+                                </div>
+                                <div class="col-12 slidee">
+                                        <img class="col-12" src="img/02baner.png" alt="">
+                                </div>
+                        </div>
+                        <div class="quadradinhos">
+                                <label for="bola1"><img src="img/sanduva.png" alt=""></label>
+                                <label for="bola2"><img src="img/sanduva.png" alt=""></label>
+
+                        </div>
+                </div>
+
+
+        </section>
+        <section class="s3">
+                <h1>Escolha seu sanduiche</h1>
+                <select id="sanduiche">
+                        <option value="escolha">Selecione um sanduiche</option>
+                        <option value="Sanduiche 1">Sanduiche 1</option>
+                        <option value="Sanduiche 2">Sanduiche 2</option>
+                        <option value="Sanduiche 3">Sanduiche 3</option>
+                        <option value="Sanduiche 4">Sanduiche 4</option>
+                        <option value="Sanduiche 5">Sanduiche 5</option>
+                        <option value="Sanduiche 6">Sanduiche 6</option>
+                </select>
+                <h1>Escolha seu adicional</h1>
+                <select id="adicional">
+                        <option value="Frango">Frango</option>
+                        <option value="ovo">ovo</option>
+                        <option value="Bacon">Bacon</option>
+
+                </select>
+                <div id="resposta"></div>
+
+        </section>
+
 </body>
-<script src="script.js" ></script>
+<script src="script.js"></script>
+
 </html>
